@@ -43,6 +43,9 @@
 			android:configChanges="keyboardHidden|orientation" />
 		<service android:name=".updatedb.ImportUpdateService" android:label="@string/import_service_label"/>
 		<activity
+			android:name=".DashboardActivity"
+			android:configChanges="keyboardHidden|orientation" />
+		<activity
 			android:name=".search.SearchActivity"
 			android:configChanges="keyboardHidden|orientation" />
 		<activity

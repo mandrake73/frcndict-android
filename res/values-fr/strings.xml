@@ -144,4 +144,8 @@
 	<string name="install_local_desc">Un fichier de données du dictionnaire à été trouvé sur le stockage externe. Voulez-vous installer ce dictionnaire ?\n\nPour ne plus avoir ce message, supprimez le fichier %s présent sur votre carte sd</string>
 	<string name="install_local_yes">Oui</string>
 	<string name="install_local_no">Non</string>
+	
+	<!--  Dashboard -->
+	<string name="dashboard_dict_button_description">Dictionnaire</string>
+	<string name="dashboard_flashcard_button_description">Flashcard HSK</string>
 </resources>

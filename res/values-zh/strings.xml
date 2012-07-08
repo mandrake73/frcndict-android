@@ -144,4 +144,8 @@
 	<string name="install_local_desc">外部存儲中發現一個詞典文件.您要安裝此詞典嗎?\n\n如需移除此提示,請刪除外部存儲中的%s 文件</string>
 	<string name="install_local_yes">是</string>
 	<string name="install_local_no">否</string>
+	
+	<!--  Dashboard -->
+	<string name="dashboard_dict_button_description">辞典</string>
+	<string name="dashboard_flashcard_button_description">HSK Flashcard</string>
 </resources>

@@ -23,7 +23,6 @@ import com.nilhcem.frcndict.core.Config;
 import com.nilhcem.frcndict.database.DatabaseHelper;
 import com.nilhcem.frcndict.database.Tables;
 import com.nilhcem.frcndict.gcm.GCMServerUtilities;
-import com.nilhcem.frcndict.search.SearchActivity;
 import com.nilhcem.frcndict.settings.SettingsActivity;
 import com.nilhcem.frcndict.updatedb.ImportActivity;
 import com.nilhcem.frcndict.updatedb.ImportUpdateService;
@@ -251,7 +250,7 @@ public final class CheckDataActivity extends Activity {
 		} else {
 			Log.d(CheckDataActivity.class.getSimpleName(), "[Check Database] Available. Redirect to Search.");
 			if (!localInstall && isDatabaseCompatible()) {
-				intent = new Intent(this, SearchActivity.class);
+				intent = new Intent(this, DashboardActivity.class);
 			} else {
 				// Happens when a dictionary with an old database was updated
 				// and database is not compatible with the new version.

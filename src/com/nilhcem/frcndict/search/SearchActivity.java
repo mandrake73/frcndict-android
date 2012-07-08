@@ -113,16 +113,16 @@ public final class SearchActivity extends AbstractListActivity {
 
 	@Override
 	public void onBackPressed() {
-		SearchService searchService = (SearchService) mService;
+		//SearchService searchService = (SearchService) mService;
 
-		if (searchService.isBackBtnPressedForTheFirstTime()) {
-			mPressBackTwiceToast = Toast.makeText(this, R.string.search_press_back_twice_exit, SearchService.BACK_TO_EXIT_TIMER);
-			mPressBackTwiceToast.show();
-			searchService.setLastBackPressTime(System.currentTimeMillis());
-		} else {
-			mService.stopPreviousThread();
+		//if (searchService.isBackBtnPressedForTheFirstTime()) {
+			//mPressBackTwiceToast = Toast.makeText(this, R.string.search_press_back_twice_exit, SearchService.BACK_TO_EXIT_TIMER);
+			//mPressBackTwiceToast.show();
+			//searchService.setLastBackPressTime(System.currentTimeMillis());
+		//} else {
+		   	mService.stopPreviousThread();
 			super.onBackPressed();
-		}
+		//}
 	}
 
 	@Override

@@ -144,4 +144,8 @@
 	<string name="install_local_desc">A dictionary file was found on the external storage. Do you want to install this dictionary?\n\nTo remove this alert, delete the %s file on your external storage</string>
 	<string name="install_local_yes">Yes</string>
 	<string name="install_local_no">No</string>
+	
+	<!--  Dashboard -->
+	<string name="dashboard_dict_button_description">Dictionary</string>
+	<string name="dashboard_flashcard_button_description">HSK Flashcard</string>
 </resources>
